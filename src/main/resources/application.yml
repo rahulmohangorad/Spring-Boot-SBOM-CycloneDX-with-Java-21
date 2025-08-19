@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: sbom-demo
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,prometheus,sbom
+  endpoint:
+    sbom:
+      cache:
+        time-to-live: 10m
+      additional:
+        jdk:
+          # Packaging a sample JDK SBOM-like file inside resources for demo purposes
+          location: "classpath:external/jdk-sample.cdx.json"
+          media-type: "application/vnd.cyclonedx+json"
+
+server:
+  port: 8080

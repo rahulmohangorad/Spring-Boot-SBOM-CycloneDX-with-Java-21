@@ -1,0 +1,22 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-01-01T00:00:00Z",
+    "component": {
+      "type": "framework",
+      "name": "Templated JDK SBOM (Demo)",
+      "version": "21",
+      "purl": "pkg:generic/jdk@21"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "java.base",
+      "version": "21",
+      "purl": "pkg:generic/java.base@21"
+    }
+  ]
+}

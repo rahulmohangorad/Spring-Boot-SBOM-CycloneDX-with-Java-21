@@ -155,3 +155,15 @@ These show up in the CycloneDX output with versions, licenses (when available), 
 ---
 
 
+## Contributing and Support
+
+We welcome technical contributions and bug reports related to the Spring Boot SBOM implementation. 
+
+### Reporting Bugs
+If you encounter a bug in the code or the CycloneDX configuration, please [open a new issue](https://github.com/rahulmohangorad/Spring-Boot-SBOM-CycloneDX-with-Java-21/issues/new) and include:
+- A clear description of the issue.
+- Steps to reproduce the error.
+- The version of Java, Gradle, and Spring Boot you are using.
+- Relevant logs or error messages.
+
+Please note that this repository is intended for technical implementation only. Survey responses or non-technical feedback should be directed through your appropriate organizational channels, as they will be closed here to maintain focus on project development.
